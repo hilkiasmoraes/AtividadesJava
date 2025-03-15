@@ -124,5 +124,55 @@ public class Main {
         System.out.println("Você é estudante? " + estudante);
 
         System.out.println("\n--------------------------------------------------");
+        System.out.println();
+
+        // Pré-incremento e Pós-incremento**
+        int a = 5;
+        int b = a++;
+        int c = ++a;
+
+        System.out.println("Valor de a: " + a);
+        System.out.println("Valor de b: " + b);
+        System.out.println("Valor de c: " + c);
+
+
+        System.out.println("\n--------------------------------------------------");
+        System.out.println();
+
+        // Operadores Abreviados
+        int valor = 20;
+        valor = valor + 5;
+        valor = valor * 2;
+        valor = valor - 3;
+        valor = valor / 2;
+        valor = valor % 4;
+        System.out.println("Resultado final: " + valor);
+
+
+        System.out.println("\n--------------------------------------------------");
+        System.out.println();
+
+        // Concatenação vs Soma
+        int senai = 10;
+        int senai1 = 210;
+        System.out.println("O valor da soma está errado: " + senai + senai1);
+        System.out.println("O valor da soma é: " + (senai + senai1));
+
+
+        System.out.println("\n--------------------------------------------------");
+        System.out.println();
+
+
+        int myInt;
+        long myLong = 123987654321L;
+        myInt = (int)myLong; //O número é "cortado"
+                            //myInt é -566397263
+
+        System.out.println(myInt);
+
+        
+        System.out.println("\n--------------------------------------------------");
+        System.out.println();
+
     }
 }
